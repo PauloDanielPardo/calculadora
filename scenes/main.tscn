@@ -1,5 +1,10 @@
 [gd_scene format=3 uid="uid://drcwyjyg3dtin"]
 
+[ext_resource type="FontFile" uid="uid://dkdqefhnwo7yh" path="res://fonts/pixel_operator/PixelOperator8.ttf" id="1_o5qli"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_o5qli"]
+font = ExtResource("1_o5qli")
+
 [node name="Control" type="Control" unique_id=1257133558]
 layout_mode = 3
 anchors_preset = 15
@@ -8,14 +13,9 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Container" type="Container" parent="." unique_id=1563348750]
-layout_mode = 0
-offset_left = 312.0
-offset_top = 203.0
-offset_right = 352.0
-offset_bottom = 243.0
-
-[node name="Container2" type="Container" parent="." unique_id=342236838]
+[node name="Label" type="Label" parent="." unique_id=512117774]
 layout_mode = 0
 offset_right = 40.0
-offset_bottom = 40.0
+offset_bottom = 23.0
+text = "Calculadora Legal"
+label_settings = SubResource("LabelSettings_o5qli")
